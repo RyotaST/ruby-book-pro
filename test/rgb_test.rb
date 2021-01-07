@@ -6,3 +6,5 @@ class RgbTest < Minitest::Test
     assert_equal '#000000', to_hex(0, 0, 0)
   end
 end
+
+#test
