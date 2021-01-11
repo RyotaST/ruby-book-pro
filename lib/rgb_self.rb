@@ -3,8 +3,6 @@ def to_hex(r, g, b)
 end
 
 def to_int(hex)
-  result = []
-  result << hex[1..2].to_i(16)
-  result << hex[3..4].to_i(16)
-  result << hex[5..6].to_i(16)
+  r, g, b = hex[1..2], hex[3..4], hex[5..6]
+  result = [r, g, b].map {|n| n.to_i(16)}
 end
