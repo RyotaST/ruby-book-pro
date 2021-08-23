@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative '../lib/convert_length.rb'
+require_relative './lib/convert_length.rb'
 
 class ConvertLengthTest < Minitest::Test
   def test_convert_length
